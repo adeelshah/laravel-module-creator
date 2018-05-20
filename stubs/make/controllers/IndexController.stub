@@ -1,0 +1,27 @@
+<?php
+
+namespace {{namespace}}\Controllers;
+
+use Illuminate\Http\Request;
+use Laravel\Lumen\Routing\Controller as BaseController;
+
+/**
+ * Class IndexController
+ *
+ * @package {{namespace}}\Controllers
+ */
+class IndexController extends BaseController
+{
+    /** @var \Illuminate\Http\Request */
+    protected $request;
+
+    /**
+     * IndexController Constructor
+     *
+     * @param \Illuminate\Http\Request $request
+     */
+    public function __construct(Request $request)
+    {
+        $this->request = $request;
+    }
+}

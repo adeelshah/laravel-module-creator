@@ -1,0 +1,13 @@
+<?php
+
+namespace {{namespace}}\Helpers;
+
+/**
+ * Class Helper
+ *
+ * @package {{namespace}}\Helpers
+ */
+class Helper
+{
+    // Put your helper functions here
+}

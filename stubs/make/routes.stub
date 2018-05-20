@@ -1,0 +1,20 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| {{module_name}} Module Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for {{module_name}} module.
+| Create groups where necessary and make sure that the routes follow the
+| RESTful norms.
+|
+*/
+
+/**  @var $router \Laravel\Lumen\Routing\Router */
+
+$app->router->group(['namespace' => '{{namespace}}\Controllers'], function () use ($router) {
+
+    // Your routes here
+
+});

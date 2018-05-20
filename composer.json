@@ -1,0 +1,16 @@
+{
+    "name": "adeel/laravel-module-creator",
+    "description": "Sdk for creating moduler structure",
+    "require": {
+        "illuminate/support": "5.6.*",
+        "illuminate/console": "5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adeel\\ModuleCreator\\": "src/"
+        }
+    },
+    "repositories": [
+    ],
+    "license": "proprietary"
+}
