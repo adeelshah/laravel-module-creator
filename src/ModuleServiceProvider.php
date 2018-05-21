@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
  *
  * @package Adeel\ModuleCreator
  */
-class ServiceProvider extends ServiceProvider
+class ModuleServiceProvider extends ModuleServiceProvider
 {
     /** @var \Laravel\Lumen\Application */
     protected $app;
